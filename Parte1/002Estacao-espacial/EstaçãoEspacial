@@ -1,0 +1,25 @@
+usuario017@PC6:~$ mkdir EstacaoEspacial
+usuario017@PC6:~$ cd EstacaoEspacial
+usuario017@PC6:~/EstacaoEspacial$ mkdir habitacao
+usuario017@PC6:~/EstacaoEspacial$ mkdir laboratorio
+usuario017@PC6:~/EstacaoEspacial$ mkdir hangar
+usuario017@PC6:~/EstacaoEspacial$ cd habitacao
+usuario017@PC6:~/EstacaoEspacial/habitacao$ touch quarto1
+usuario017@PC6:~/EstacaoEspacial/habitacao$ touch quarto2
+usuario017@PC6:~/EstacaoEspacial/habitacao$ touch quarto3
+usuario017@PC6:~/EstacaoEspacial/habitacao$ cd /home/usuario017/EstacaoEspacial   //ou cd ..
+usuario017@PC6:~/EstacaoEspacial$ cd laboratorio
+usuario017@PC6:~/EstacaoEspacial/laboratorio$ touch pesquisa1
+usuario017@PC6:~/EstacaoEspacial/laboratorio$ touch pesquisa2
+usuario017@PC6:~/EstacaoEspacial/laboratorio$ cd /home/usuario017/EstacaoEspacial
+usuario017@PC6:~/EstacaoEspacial$ cd hangar
+usuario017@PC6:~/EstacaoEspacial/hangar$ touch espaco1
+usuario017@PC6:~/EstacaoEspacial/hangar$ touch espaco2
+usuario017@PC6:~/EstacaoEspacial/hangar$ touch espaco3
+usuario017@PC6:~/EstacaoEspacial/hangar$ cd /home/usuario017/EstacaoEspacial
+usuario017@PC6:~/EstacaoEspacial$ rm - r hangar
+usuario017@PC6:~/EstacaoEspacial$ touch BoasVindas.txt
+usuario017@PC6:~/EstacaoEspacial$ echo 'Bem-vindos à Estação Espacial!' >> BoasVindas.txt
+usuario017@PC6:~/EstacaoEspacial$ cp BoasVindas.txt /home/usuario017/EstacaoEspacial /home/usuario017/EstacaoEspacial/laboratorio
+usuario017@PC6:~/EstacaoEspacial$ echo 'Bem-vindos à Estação Espacial! Este é o laboratório!' > BoasVindas.txt
+
