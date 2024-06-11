@@ -1,0 +1,134 @@
+usuario017@PC6:~$ mkdir projetoslions
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+usuario017@PC6:~$ cd projetoslions/
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+usuario017@PC6:~/projetoslions$ mkdir adivinhacao
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+usuario017@PC6:~/projetoslions$ ls
+adivinhacao
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+usuario017@PC6:~/projetoslions$ cd adivinhacao/
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+usuario017@PC6:~/projetoslions/adivinhacao$ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Repositório vazio Git inicializado em  /home/usuario017/projetoslions/adivinhacao/.git/
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+usuario017@PC6:~/projetoslions/adivinhacao$ touch index.js
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+usuario017@PC6:~/projetoslions/adivinhacao$ ls
+index.js
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+usuario017@PC6:~/projetoslions/adivinhacao$ nautilus .
+Nautilus-Share-Message: 09:16:50.761: Called "net usershare info" but it failed: Falha ao executar processo filho “net” (No such file or directory)
+^C
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+usuario017@PC6:~/projetoslions/adivinhacao$ git status
+No ramo master
+
+No commits yet
+
+Arquivos não monitorados:
+  (utilize "git add <arquivo>..." para incluir o que será submetido)
+	index.js
+
+nada adicionado ao envio mas arquivos não registrados estão presentes (use "git add" to registrar)
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+usuario017@PC6:~/projetoslions/adivinhacao$ git add index.js
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+usuario017@PC6:~/projetoslions/adivinhacao$ git status
+No ramo master
+
+No commits yet
+
+Mudanças a serem submetidas:
+  (utilize "git rm --cached <arquivo>..." para não apresentar)
+	new file:   index.js
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+usuario017@PC6:~/projetoslions/adivinhacao$ git commit -m "init: first commit"
+[master (root-commit) 3119c8e] init: first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.js
+ //----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+usuario017@PC6:~/projetoslions/adivinhacao$ git status
+No ramo master
+nothing to commit, working tree clean
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+usuario017@PC6:~/projetoslions/adivinhacao$ git branch main
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+usuario017@PC6:~/projetoslions/adivinhacao$ git branch
+  main
+* master
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+usuario017@PC6:~/projetoslions/adivinhacao$ git checkout main
+Switched to branch 'main'
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+usuario017@PC6:~/projetoslions/adivinhacao$ git branch -d master
+Deleted branch master (was 3119c8e).
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+usuario017@PC6:~/projetoslions/adivinhacao$ git branch
+* main
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+usuario017@PC6:~/projetoslions/adivinhacao$ git status
+No ramo main
+nothing to commit, working tree clean
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+usuario017@PC6:~/projetoslions/adivinhacao$ git remote add origin https://github.com/gbcapri/adivinhacao.git
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+usuario017@PC6:~/projetoslions/adivinhacao$ git push -u origin main
+Username for 'https://github.com': gbcapri
+Password for 'https://gbcapri@github.com': 
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 207 bytes | 207.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/gbcapri/adivinhacao.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+PARA ADICIONAR UMA BRANCH(MUDAR UMA PARTE DO CÓDIGO PRINCIPAL)
+
+
+usuario017@PC6:~$ cd projetoslions/
+usuario017@PC6:~/projetoslions$ cd adivinhacao/
+usuario017@PC6:~/projetoslions/adivinhacao$ git branch jogo
+usuario017@PC6:~/projetoslions/adivinhacao$ git checkout jogo
+Switched to branch 'jogo'
+usuario017@PC6:~/projetoslions/adivinhacao$ code .
+
+
+
