@@ -1,0 +1,25 @@
+usuário017@PC6:~$ mkdir original
+usuario017@PC6:~$ mkdir copia
+usuario017@PC6:~$ cd original
+usuario017@PC6:~/originals touch index.txt
+usuario017@PC6:~/original$ echo 'ola_mundo' >> index.txt
+usuario017@PC6:~/originals cp cópia original
+usuario017@PC6:~/original$ cp index.txt cópia original
+usuario017@PC6:~/originals touch index.txt
+usuario017@PC6:~/originals cp cópia original
+
+usuario017@PC6:~/original$ cp ./original copia
+
+usuario017@PC6:~/original$ cp index.txt copia
+usuario017@PC6:~/original$ cp index.txt cópia original
+
+usuario017@PC6:~/original$ cp original index.txt copia
+
+usuario017@PC6:~/original$ cp cópia original index.txt
+
+usuario017@PC6:~/original$ cp index.txt /home/usuario017/original ^C
+
+usuario017@PC6:~/original$ cp index.txt /home/usuario017/original /home/usuario017/copia
+usuario017@PC6:~/original$ rm index.txt
+usuario017@PC6:~/original$ rm copia
+usuário017@PC6:~/original$
